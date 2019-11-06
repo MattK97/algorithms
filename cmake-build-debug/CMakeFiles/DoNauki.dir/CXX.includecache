@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/kukul/CLionProjects/DoNauki/Stos.cpp
+Stos.h
+C:/Users/kukul/CLionProjects/DoNauki/Stos.h
+iostream
+-
+
+C:/Users/kukul/CLionProjects/DoNauki/Stos.h
+
