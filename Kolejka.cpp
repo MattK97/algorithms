@@ -3,6 +3,9 @@
 //
 
 #include "Kolejka.h"
+#include <iostream>
+
+
 //podstawowe opera
 void Kolejka::add(elem *&pocz_kolejki, elem *&kon_kolejki, int x) {
     elem *el = new elem;

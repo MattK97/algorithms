@@ -6,12 +6,13 @@
 #include <iostream>
 
 
+
 //podstawowe operacje wykonywane na stosie
 void Stos::push(elem* &stos, int x){
-    if(stos == nullptr){
+    if(stos == NULL){
         elem* el = new elem;
         el->dane = x;
-        el->nast = nullptr;
+        el->nast = NULL;
         stos = el;
     }else {
         elem *el = new elem;

@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/Lista.h">
 			<Option target="DoNauki"/>
 		</Unit>
+		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/ListaDwukierunkowa.cpp">
+			<Option target="DoNauki"/>
+		</Unit>
+		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/ListaDwukierunkowa.h">
+			<Option target="DoNauki"/>
+		</Unit>
 		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/Stos.cpp">
 			<Option target="DoNauki"/>
 		</Unit>

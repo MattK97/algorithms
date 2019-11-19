@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/kukul/CLionProjects/DoNauki/Stos.cpp
-Stos.h
-C:/Users/kukul/CLionProjects/DoNauki/Stos.h
+C:/Users/kukul/CLionProjects/DoNauki/Lista.cpp
+Lista.h
+C:/Users/kukul/CLionProjects/DoNauki/Lista.h
 iostream
 -
 
-C:/Users/kukul/CLionProjects/DoNauki/Stos.h
+C:/Users/kukul/CLionProjects/DoNauki/Lista.h
+
+C:/Users/kukul/CLionProjects/DoNauki/main.cpp
+Lista.h
+C:/Users/kukul/CLionProjects/DoNauki/Lista.h
+iostream
+-
 

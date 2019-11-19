@@ -10,7 +10,11 @@ struct elem {
     elem * nast;
 };
 class Lista {
+public:
     void insert(int x, int i, elem* &lista);
+    void remove(int i, elem* &lista);
+    int read(int i, elem* lista);
+
 };
 
 

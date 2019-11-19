@@ -176,6 +176,33 @@ Lista.cpp.s:
 	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/Lista.cpp.s
 .PHONY : Lista.cpp.s
 
+ListaDwukierunkowa.obj: ListaDwukierunkowa.cpp.obj
+
+.PHONY : ListaDwukierunkowa.obj
+
+# target to build an object file
+ListaDwukierunkowa.cpp.obj:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.obj
+.PHONY : ListaDwukierunkowa.cpp.obj
+
+ListaDwukierunkowa.i: ListaDwukierunkowa.cpp.i
+
+.PHONY : ListaDwukierunkowa.i
+
+# target to preprocess a source file
+ListaDwukierunkowa.cpp.i:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.i
+.PHONY : ListaDwukierunkowa.cpp.i
+
+ListaDwukierunkowa.s: ListaDwukierunkowa.cpp.s
+
+.PHONY : ListaDwukierunkowa.s
+
+# target to generate assembly for a file
+ListaDwukierunkowa.cpp.s:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.s
+.PHONY : ListaDwukierunkowa.cpp.s
+
 Stos.obj: Stos.cpp.obj
 
 .PHONY : Stos.obj
@@ -245,6 +272,9 @@ help:
 	@echo ... Lista.obj
 	@echo ... Lista.i
 	@echo ... Lista.s
+	@echo ... ListaDwukierunkowa.obj
+	@echo ... ListaDwukierunkowa.i
+	@echo ... ListaDwukierunkowa.s
 	@echo ... Stos.obj
 	@echo ... Stos.i
 	@echo ... Stos.s

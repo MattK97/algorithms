@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/kukul/CLionProjects/DoNauki/Kolejka.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/Kolejka.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/Lista.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/Lista.cpp.obj"
+  "C:/Users/kukul/CLionProjects/DoNauki/ListaDwukierunkowa.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/Stos.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/Stos.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/main.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/main.cpp.obj"
   )
