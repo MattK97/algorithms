@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/kukul/CLionProjects/DoNauki/Lista.cpp
+C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.cpp
+DrzewoBinarne.h
+C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.h
 Lista.h
 C:/Users/kukul/CLionProjects/DoNauki/Lista.h
 iostream
 -
 
-C:/Users/kukul/CLionProjects/DoNauki/Lista.h
-
-C:/Users/kukul/CLionProjects/DoNauki/main.cpp
-Lista.h
-C:/Users/kukul/CLionProjects/DoNauki/Lista.h
+C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.h
 iostream
 -
+
+C:/Users/kukul/CLionProjects/DoNauki/Lista.h
 

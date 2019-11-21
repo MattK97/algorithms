@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DoNauki.dir/DrzewoBinarne.cpp.obj"
   "CMakeFiles/DoNauki.dir/Kolejka.cpp.obj"
   "CMakeFiles/DoNauki.dir/Lista.cpp.obj"
   "CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.obj"

@@ -4,18 +4,25 @@
 
 #include "ListaDwukierunkowa.h"
 #include <iostream>
+using namespace std;
 
 void ListaDwukierunkowa::insert(int x, int i, elem *&lista) {
-    elem* newel = new elem;
-    if(i==1){
-        newel->poprz = NULL;
-        newel->nast = lista;
-        newel->dane = x;
-        if(lista!=NULL) {
-            lista->poprz = newel;
-        }
-        lista=newel;
-    }else if(i>1){
 
+}
+void ListaDwukierunkowa::read(elem *lista) {
+    elem* pomocnicza = lista;
+    while (pomocnicza!=NULL){
+        cout << pomocnicza->dane << endl;
+        int x = pomocnicza->dane;
+        pomocnicza = pomocnicza->nast;
     }
 }
+/*cout<<"Podaje dane: nr listy:   ";
+cout<< lista;
+cout<< "    poprz:    ";
+cout<< lista->poprz;
+cout<< "     nast:    ";
+cout<< lista->nast;
+cout<< "      dane :   ";
+cout<< lista->dane;
+cout<< endl;*/

@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/DrzewoBinarne.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/Kolejka.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/Kolejka.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/Lista.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/Lista.cpp.obj"
   "C:/Users/kukul/CLionProjects/DoNauki/ListaDwukierunkowa.cpp" "C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir/ListaDwukierunkowa.cpp.obj"

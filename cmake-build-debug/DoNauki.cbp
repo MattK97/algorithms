@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.cpp">
+			<Option target="DoNauki"/>
+		</Unit>
+		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/DrzewoBinarne.h">
+			<Option target="DoNauki"/>
+		</Unit>
 		<Unit filename="C:/Users/kukul/CLionProjects/DoNauki/Kolejka.cpp">
 			<Option target="DoNauki"/>
 		</Unit>

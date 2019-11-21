@@ -14,6 +14,8 @@ public:
     void insert(int x, int i, elem* &lista);
     void remove(int i, elem* &lista);
     int read(int i, elem* lista);
+    int size(elem* lista);
+    void print(elem* lista);
 
 };
 

@@ -13,6 +13,7 @@ struct elem {
 class ListaDwukierunkowa {
 public:
     void insert(int x, int i, elem* &lista);
+    void read(elem* lista);
 
 };
 

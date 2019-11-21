@@ -122,6 +122,33 @@ DoNauki/fast:
 	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/build
 .PHONY : DoNauki/fast
 
+DrzewoBinarne.obj: DrzewoBinarne.cpp.obj
+
+.PHONY : DrzewoBinarne.obj
+
+# target to build an object file
+DrzewoBinarne.cpp.obj:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/DrzewoBinarne.cpp.obj
+.PHONY : DrzewoBinarne.cpp.obj
+
+DrzewoBinarne.i: DrzewoBinarne.cpp.i
+
+.PHONY : DrzewoBinarne.i
+
+# target to preprocess a source file
+DrzewoBinarne.cpp.i:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/DrzewoBinarne.cpp.i
+.PHONY : DrzewoBinarne.cpp.i
+
+DrzewoBinarne.s: DrzewoBinarne.cpp.s
+
+.PHONY : DrzewoBinarne.s
+
+# target to generate assembly for a file
+DrzewoBinarne.cpp.s:
+	$(MAKE) -f CMakeFiles\DoNauki.dir\build.make CMakeFiles/DoNauki.dir/DrzewoBinarne.cpp.s
+.PHONY : DrzewoBinarne.cpp.s
+
 Kolejka.obj: Kolejka.cpp.obj
 
 .PHONY : Kolejka.obj
@@ -266,6 +293,9 @@ help:
 	@echo ... edit_cache
 	@echo ... DoNauki
 	@echo ... rebuild_cache
+	@echo ... DrzewoBinarne.obj
+	@echo ... DrzewoBinarne.i
+	@echo ... DrzewoBinarne.s
 	@echo ... Kolejka.obj
 	@echo ... Kolejka.i
 	@echo ... Kolejka.s

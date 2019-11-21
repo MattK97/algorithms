@@ -25,12 +25,17 @@ void Lista::insert(int x, int i, elem *&lista) {
 
 void Lista::remove(int i, elem *&lista) {
     elem* pomocnicza = lista;
-    for (int j = 1; j < i; ++j) {
+    elem* k;
+    for (int j = 1; j <= i; ++j) {
         pomocnicza = pomocnicza->nast;
+        if(j==(i-1)){
+            k = pomocnicza;
+        }
     }
+    k->nast=pomocnicza->nast;
+    delete(pomocnicza);
 
 }
-
 int Lista::read(int i, elem *lista) {
     elem* pomocnicza = lista;
     for (int j = 1; j < i; j++) {
@@ -38,6 +43,23 @@ int Lista::read(int i, elem *lista) {
     }
     int x = pomocnicza->dane;
     return x;
+}
+int Lista::size(elem *lista) {
+    int i=0;
+    elem* pomocnicza = lista;
+    while(pomocnicza!=NULL){
+        i++;
+        pomocnicza = pomocnicza->nast;
+    }
+    return i;
+}
+void Lista::print(elem *lista) {
+    int i = size(lista);
+    elem* pomocnicza = lista;
+    for(int j=0;j<i;j++){
+        cout << pomocnicza->dane << endl;
+        pomocnicza = pomocnicza->nast;
+    }
 }
 
 
