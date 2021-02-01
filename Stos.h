@@ -12,12 +12,21 @@ struct elem {
 
 class Stos {
 public:
-    void push(elem* &stos, int);
-    int pop(elem* &stos);
+    static void push(elem* &stos, int x);
+    static int pop(elem* &stos);
     int topEl(elem*);
-    bool isEmpty(elem*);
+    static bool isEmpty(elem*);
     void sortElementsWithAdditionalStack(elem* &stos);
+    void add(elem*& pocz_kol, elem*& kon_kol, int x);
+    int next(elem*& pocz_kol, elem*& kon_kol);
+    int firstEl(elem* pocz_kol, elem* kon_kol);
+    void addStack(elem*& stos1, int x);
+    int nextStack(elem*& stos1, elem*& stos2);
+    void reverse_stack(elem*& stack1, elem*& stack2);
+
 };
+
+
 
 
 #endif //DONAUKI_STOS_H

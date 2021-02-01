@@ -30,3 +30,52 @@ bool Kolejka::isEmpty(elem *pocz_kolejki) {
     return true;
 }
 
+void Kolejka::twoStacksQueueAdd(elem* &stos, int x) {
+    if(stos == nullptr){
+        elem* el = new elem;
+        el->dane = x;
+        el->nast= nullptr;
+        stos = el;
+    }else{
+        elem* el = new elem;
+        el->dane = x;
+        el->nast = stos;
+        stos = el;
+    }
+}
+
+int Kolejka::twoStacksQueueNext(elem* &stos) {
+    elem* temp = stos;
+    elem* nowyStos = new elem;
+    while (temp != nullptr){
+        twoStacksQueueAdd(nowyStos, temp->dane);
+        temp = temp->nast;
+    }
+    return nowyStos->dane;
+}
+void Kolejka::arrayQueueAdd(int *arr, int maxSize, int x, int *rear) {
+    if(maxSize==*rear){
+        std::cout<<"Kolejka pełna"<<std::endl;
+        return;
+    }else{
+        arr[*rear] = x;
+        (*rear)++;
+        return;
+    }
+}
+
+int Kolejka::arrayQueueNext(int *arr, int *rear) {
+    if(*rear==0){
+        std::cout<<"Pusta lista"<<std::endl;
+        return NULL;
+    }
+    int toReturn = *arr;
+    int counter = 0;
+    int copRear = *rear;
+    while(counter!=copRear){
+        arr[counter] = arr[counter+1];
+        counter++;
+    };
+    (*rear)--;
+    return toReturn;
+}

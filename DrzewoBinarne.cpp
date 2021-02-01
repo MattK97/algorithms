@@ -50,4 +50,5 @@ int DrzewoBinarne::search(int x, node *korzen) {
             }
         }
     }
+    return 0;
 }

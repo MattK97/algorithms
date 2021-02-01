@@ -16,7 +16,10 @@ public:
     int next(elem* &pocz_kolejki, elem* &kon_kolejki);
     int firstEl(elem* pocz_kolejki);
     bool isEmpty(elem* pocz_kolejki);
-
+    void twoStacksQueueAdd(elem* &stos, int x);
+    int twoStacksQueueNext(elem* &stos);
+    void arrayQueueAdd(int* arr, int maxSize, int x, int* rear);
+    int arrayQueueNext(int *arr, int *rear);
 };
 
 

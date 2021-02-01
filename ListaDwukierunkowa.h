@@ -14,6 +14,9 @@ class ListaDwukierunkowa {
 public:
     void insert(int x, int i, elem* &lista);
     void read(elem* lista);
+    void to_cyclic(elem* lista);
+    void reverse_cyclic(elem* lista);
+    bool is_valid_pn(elem* lsita);
 
 };
 

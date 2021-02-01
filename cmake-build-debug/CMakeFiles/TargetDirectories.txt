@@ -1,3 +1,3 @@
-C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/DoNauki.dir
-C:/Users/kukul/CLionProjects/DoNauki/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/kukul/algorytmy/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/kukul/algorytmy/cmake-build-debug/CMakeFiles/DoNauki.dir
+C:/Users/kukul/algorytmy/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -7,8 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/DoNauki.dir/main.cpp.obj"
   "DoNauki.exe"
   "DoNauki.exe.manifest"
+  "DoNauki.lib"
   "DoNauki.pdb"
-  "libDoNauki.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
